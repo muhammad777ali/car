@@ -1,0 +1,15 @@
+@media(max-width:430px){
+    .title{
+        font-size: 25px;
+    }
+    .btn{
+        width: 95px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .nav__btn{
+        row-gap: 13px;
+        padding-left: 45px;
+        padding-top: 10px;
+    }
+}

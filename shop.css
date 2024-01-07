@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section{
+
+}
+.container{
+    max-width: 1700px;
+    margin: 0px auto;
+    width: 100%;
+    background: url(images/s.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: center;
+    column-gap: 230px;
+    padding: 0 0 90px 0px;
+    padding-top: 30px;
+}
+.gift{
+     position: relative;  
+     overflow: hidden; 
+
+}
+.btns{
+    width: 250px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 25px;
+background: black;
+font-size: 27px;
+cursor: pointer;
+    transition: 0.5s;
+    padding: 9px 10px;
+    color: #e4d505;
+
+}
+.bgt{
+    width: 100px;
+    height: 40px;
+    background:rgb(5, 99, 5);
+    font-size: 20px;
+    color: #e4d505;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid rgb(0, 0, 0);
+    font-family: Dancing Script;
+    color: #e4d505;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.bgt:hover{
+    background: red;
+}
+.ccc{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.photo2{
+    width: 526px;
+    height: 330px;
+    object-fit: cover;
+}
+.rec{
+    position: absolute;
+    bottom: -3rem;
+    background: url(images/bgf.jpg);
+    width: 100%;
+    text-align: center;
+    padding: 3px 0px;
+    font-size: 25px;
+    color: #fff;
+    transition: 0.3s linear;
+}
+.mmm{
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+}
+.mmm:hover .rec{
+    bottom: 0px;
+}
+.fffr{
+    color: rgb(30, 255, 1);
+}
+.fffrr{
+    color: red;
+}
+.dss{
+    font-size: 100px;
+    text-align: center;
+    background: url(images/bgf.jpg);
+    color: #39889c;
+}
+.vv{
+    font-size: 200px;
+    text-align: center;
+    padding-top: 80px;
+    color: #09c519;
+    
+}
+.btnsq{
+    width: 250px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: url(images/bg.jpg);
+    font-size: 27px;
+    cursor: pointer;
+        transition: 0.5s;
+        padding: 9px 10px;
+        font-size: 30px;
+    transition: 0.3;
+    color: yellow;
+}
+.btnsq:hover{
+    background: url(images/abstract-colorful-light-background-png_110324.jpg);
+}
+.btf{
+    padding-left: 40%;
+    padding-top: 50px;
+}
+.df{
+    background: url(images/bgf.jpg);
+}
+.btns:hover{
+    background: #632902;
+}
+.cv{
+    font-size: 100px;
+    text-align: center;
+    background: url(images/bgf.jpg);
+    color: #09c519;
+}
